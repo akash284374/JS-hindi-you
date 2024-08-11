@@ -21,21 +21,50 @@
 
 
 //array
-const heroes=["Shaktiman","naagraj","doga"];
+// const heroes=["Shaktiman","naagraj","doga"];
 
-//obj
+// //obj
 
-let myObj={
-    name:"akash",
-    age:22
-}
+// let myObj={
+//     name:"akash",
+//     age:22
+// }
 
 // {
 //     name:"akash"
 //     age: 22
 // }
 
-const myFunction=function(){
-    console.log("Hello Duniya");
+// const myFunction=function(){
+//     console.log("Hello Duniya");
+// }
+// console.log(typeof myFunction)
+
+
+
+
+
+
+
+// ********************************
+
+//Stack (primitive),Heap (non primitive)
+// let myYoutubename="Akashsah"
+// let anothername=myYoutubename
+// anothername="Aman"
+// console.log(myYoutubename);
+// console.log(anothername);
+
+
+let userOne={
+    email:"raj@google.com",
+    upi:"user@ybl"
 }
-console.log(typeof myFunction)
+
+let userTwo=userOne
+userTwo.email="hitesh@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
